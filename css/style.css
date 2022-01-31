@@ -4,3 +4,18 @@
     height: 415px;
     margin: 0;
 }
+.site-wrapper > .navigation {
+    display: flex;
+
+}
+.nav-list {
+    list-style: none;
+    /* background-color: #D284A5; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list > .nav-alink {
+    padding: 10px;
+}
