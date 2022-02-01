@@ -1,0 +1,20 @@
+.site-wrapper > .nav {
+    display: flex;
+
+}
+
+/* navigation  */
+.navlist {
+    list-style: none;
+    /* background-color: #D284A5; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.navlist > .nav-link {
+    display: block;
+    padding: 10px;
+    background-color: #D284A5;
+    border-color: #A80D51;
+}
