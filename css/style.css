@@ -21,6 +21,12 @@
     padding: 10px;
 }
 
+
+/* This code makes the logo pop up when hovered on  */
+.site-wrapper > .navigation > .left-column > img:hover{
+    transform: scale(1.2);
+    transition: .25s;
+}
 .site-wrapper > .body > .featured-text{
     font-size: 50px;
     color: #A80D51;
@@ -59,6 +65,7 @@ p {
 }
 footer {
     display: flex;
+    
 }
 /* buttons */
 .site-wrapper > footer > a {
@@ -74,10 +81,21 @@ footer {
     border-radius: 25px;
     
 }
+/* this code makes the button have a shadow when hovered over. */
+.site-wrapper > footer > a:hover {
+    box-shadow: 5px 5px;
+    color: black;
+    transition: .25s;
+}
 
 /* icons */
-.site-wrapper > footer > .icon-content > i {
+.site-wrapper > footer > .icon-content > a {
     font-size:3em;
     margin: 15px;
-    
+    color: black;
+}
+/* This code makes the footer icons have a dif color when hovered */
+.site-wrapper > footer > .icon-content > a:hover{
+    color: #A80D51;
+    transition: 0.25s;
 }
