@@ -18,7 +18,7 @@
 
 }
 
-.nav-list > .nav-link {
+.nav-list > .nav-alink {
     display: block;
     padding: 15px 82px;
     background-color: #D284A5;
@@ -28,9 +28,8 @@
 }
 .nav-alink a {
     display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+    color: black;
+
 }
 
 .navlist > .nav-link:hover{
@@ -45,7 +44,11 @@
     padding: 15px 82px;
     border: 1px solid #A80D51;
     background-color: #69003A;
+        text-align: center;
+    text-decoration: none;
 }
 .nav-list > .active a{
     color: white;
+    text-align: center;
+    text-decoration: none;
 }
