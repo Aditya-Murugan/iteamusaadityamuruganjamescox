@@ -62,9 +62,16 @@ footer {
 }
 /* buttons */
 .site-wrapper > footer > a {
+    text-decoration: none;
     background-color: #A80D51;
     color: white;
-    padding: 5px 25px;
+    padding: 20px 35px;
+    margin:  50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    border: solid #A80D51;
+    border-radius: 25px;
     
 }
 
