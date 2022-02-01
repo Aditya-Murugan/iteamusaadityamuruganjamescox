@@ -26,3 +26,20 @@
     text-align: center;
     font-family: 'Mulish', sans-serif;
 }
+
+.site-wrapper > .body > .headphone-dog {
+    width: 350px;
+    height: 400px;
+}
+/* main text to the right of headphone dog */
+h1 {
+    font-size: 50px;
+    color: #A80D51;
+    text-align: right;
+    font-family: 'Mulish', sans-serif;
+}
+p {
+    color: #000000;
+    font-size: 30px;
+    text-align: right;
+}
