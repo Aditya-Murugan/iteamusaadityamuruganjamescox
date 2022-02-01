@@ -44,3 +44,23 @@ p {
     font-size: 30px;
     
 }
+
+/* footer */
+
+.site-wrapper > footer > .copyright {
+    font-size: 20px;
+    text-align: center;
+}
+
+.site-wrapper > footer > img {
+    width: 144px;
+    height: 103px;   
+    display: flex;
+}
+
+/* icons */
+.site-wrapper > footer > .icon-content > i {
+    font-size:3em;
+    margin: 15px;
+    
+}
