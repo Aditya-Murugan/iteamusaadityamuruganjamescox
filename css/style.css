@@ -8,6 +8,7 @@
     display: flex;
 
 }
+/* navigation  */
 .nav-list {
     list-style: none;
     /* background-color: #D284A5; */
@@ -31,7 +32,7 @@
     width: 350px;
     height: 400px;
 }
-/* main text to the right of headphone dog */
+/* text */
 h1 {
     font-size: 50px;
     color: #A80D51;
