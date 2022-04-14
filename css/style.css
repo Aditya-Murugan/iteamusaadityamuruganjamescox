@@ -92,19 +92,19 @@ p {
 
 /* footer */
 
-.site-wrapper > footer > .copyright {
+.site-wrapper > footer > .middle-footer> .copyright {
     font-size: 20px;
     text-align: center;
 }
 
-.site-wrapper > footer > img {
-    width: 110px;
-    height: 110px;   
+.site-wrapper > footer > .middle-footer>  img {
+    width: 90px;
+    height: 90px;   
     display: flex;
 }
 footer {
     display: flex;
-    
+    justify-content: space-around;
 }
 /* buttons */
 .site-wrapper > footer > a {
@@ -112,14 +112,17 @@ footer {
     background-color: #A80D51;
     color: white;
     padding: 20px 35px;
-    margin:  50px;
+    margin:  100px;
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Mulish', sans-serif;
     border: solid #A80D51;
     border-radius: 25px;
     transition: .3s;
-    
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 1px;
 }
 /* this code makes the button have a shadow when hovered over. */
 .site-wrapper > footer > a:hover {
@@ -138,4 +141,21 @@ footer {
 .site-wrapper > footer > .icon-content > a:hover{
     color: #A80D51;
     transition: 0.25s;
+}
+
+.site-wrapper > footer > .middle-footer > .icon-content> i{
+    font-size: 2.5em;
+    transition: .5s;
+    margin: 0px, 20px, 0px, 20px;
+}
+
+.site-wrapper > footer> .middle-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-wrapper > footer > .middle-footer > .icon-content> i:hover{
+    color: #A80D51;
+    transition: .5s;
 }
