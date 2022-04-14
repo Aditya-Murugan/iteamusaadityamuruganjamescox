@@ -10,53 +10,7 @@
 
 }
 
-/* navigation  */
 
-.nav-list {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    align-items: center;
-    
-
-}
-
-.nav-list > .nav-alink {
-    display: block;
-    padding: 15px 82px;
-    background-color: #D284A5;
-    border: 1px solid #A80D51;
-    float: left;
-
-}
-.nav-alink a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-.nav-list > .nav-alink:hover{
-    display: block;
-    padding: 15px 82px;
-    background-color: #A80D51;
-}
-
-.nav-list > .active {
-    float: left;
-    display: block;
-    padding: 15px 82px;
-    border: 1px solid #A80D51;
-    background-color: #69003A;
-}
-.nav-list > .active a{
-    display: flex;
-    color: white;
-    text-decoration: none;
-    align-items: center;
-}
 
 /* This code makes the logo pop up when hovered on  */
 .site-wrapper > .navigation > .left-column > img:hover{
@@ -100,7 +54,8 @@ p {
     display: flex;
 }
 footer {
-    display: flex;
+    display: grid;
+    grid-template-rows:33% 33% 33%;
     
 }
 /* buttons */
