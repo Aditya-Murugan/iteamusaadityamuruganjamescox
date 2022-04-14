@@ -11,7 +11,7 @@
 }
 
 
-.nav-list {
+/* .nav-list {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -55,7 +55,7 @@
     color: white;
     text-decoration: none;
     align-items: center;
-}
+} */
 .site-wrapper > .navigation > .left-column > img{
     margin: 50px;
     transition: .3s;
