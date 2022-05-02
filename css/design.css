@@ -1,0 +1,14 @@
+
+h1 {
+    text-align: center;
+
+}
+
+.pdfs {
+    display: flex;
+    justify-content: center;
+}
+
+embed {
+    width: 90%;
+}
