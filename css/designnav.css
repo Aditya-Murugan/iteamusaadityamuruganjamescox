@@ -35,8 +35,8 @@ nav .nav-links {
 
 .nav-list > .nav-alink {
     display: block;
-    background-color: #D284A5;
-    border: 1px solid #A80D51;
+    /* background-color: #D284A5; */
+    background-color: #A80D51;
     float: left;
 
 }
@@ -46,18 +46,22 @@ nav .nav-links {
     color: white;
     text-align: center;
     text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
 }
 
-.nav-list > .nav-alink:hover{
+.nav-list > .nav-alink:hover, a:hover {
     display: block;
-    background-color: #A80D51;
+    background-color: white;
+    border: none;
+    color: #A80D51;
+    transition: 0.3s;
 }
 
 .nav-list > .active {
     float: left;
     display: block;
     padding: 15px 82px;
-    border: 1px solid #A80D51;
     background-color: #69003A;
 }
 .nav-list > .active a{
@@ -65,4 +69,5 @@ nav .nav-links {
     color: white;
     text-decoration: none;
     align-items: center;
+    font-size: 20px;
 }
