@@ -1,0 +1,20 @@
+.featured-text {
+    margin: 2% 6%;
+}
+
+.blog{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.blog-words {
+    margin-left: 5%;
+}
+.img-cont {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
